@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Google page Search",
+        "description": "",
+        "id": "google-page-test;google-page-search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3766561249,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open Web Page",
+            "match": {
+              "location": "GooglePageTest.open_Web_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21231003,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Populate the UserName field",
+            "match": {
+              "location": "GooglePageTest.populate_the_UserName_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10537644,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Populate the Password field",
+            "match": {
+              "location": "GooglePageTest.populate_the_Password_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5209021454,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on the Login button",
+            "match": {
+              "location": "GooglePageTest.click_on_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96880887,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Close the Web Page",
+            "match": {
+              "location": "GooglePageTest.close_the_Web_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Google Page Test",
+    "description": "",
+    "id": "google-page-test",
+    "keyword": "Feature",
+    "uri": "/Users/vedant.jagani/Desktop/AutomationTest/RunWithJenins1/src/main/java/Features/Test.feature"
+  }
+]
